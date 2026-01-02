@@ -19,7 +19,7 @@ if "turn" not in st.session_state:
     st.session_state.turn = "A"
 if "finished" not in st.session_state:
     st.session_state.finished = False
-
+    
 # --------------------
 # サイコロ処理
 # --------------------
