@@ -30,10 +30,10 @@ for turn in range(10):  # 10ターン
     print("".join(board))
     print()
 
-if pos_a >= board_size:
-    print("🎉 プレイヤーAの勝ち！")
-    break
+    if pos_a >= board_size:
+        print("🎉 プレイヤーAの勝ち！")
+        break
 
-if pos_b >= board_size:
-    print("🎉 プレイヤーBの勝ち！")
-    break
+    if pos_b >= board_size:
+        print("🎉 プレイヤーBの勝ち！")
+        break
